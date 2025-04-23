@@ -3,14 +3,10 @@ import faqItems from '../constant/FAQConstant';
 
 const FAQComponent = () => {
   const [activeIndex, setActiveIndex] = useState(null);
-
-  
-
   const toggleFAQ = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
 
-  
   const leftItems = faqItems.filter((_, index) => index % 2 === 0);
   const rightItems = faqItems.filter((_, index) => index % 2 !== 0);
 

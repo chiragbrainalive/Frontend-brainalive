@@ -58,4 +58,5 @@ const EmailInput = ({ onEmailChange }) => {
   );
 };
 
+
 export default EmailInput;
