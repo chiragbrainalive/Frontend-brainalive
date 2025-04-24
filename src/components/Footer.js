@@ -1,28 +1,5 @@
-import { FaInstagram, FaLinkedinIn } from 'react-icons/fa';
-import { FaXTwitter, FaTelegram } from 'react-icons/fa6';
 import React from 'react';
-
-const footerLinks = [
-  {
-    title: 'Products',
-    links: ['FOCII', 'ABHA'],
-  },
-  {
-    title: 'Company',
-    links: ['About Us', 'Our Science', 'Resources'],
-  },
-  {
-    title: 'Support & Legal',
-    links: ['Privacy Policy', 'Contact Us', 'Terms & Conditions'],
-  },
-];
-
-const socialIcons = [
-  { icon: <FaTelegram />, link: '#' },
-  { icon: <FaXTwitter />, link: '#' },
-  { icon: <FaInstagram />, link: '#' },
-  { icon: <FaLinkedinIn />, link: '#' },
-];
+import { footerLinks, socialIcons } from '../constant/footerconstant';
 
 export default function Footer() {
   return (
