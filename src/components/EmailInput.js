@@ -8,7 +8,7 @@ const EmailInput = ({ onEmailChange }) => {
     const value = e.target.value;
     setEmail(value);
 
-    // Simple email validation
+    
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!value || emailRegex.test(value)) {
       setError('');

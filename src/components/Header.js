@@ -11,7 +11,7 @@ const Header = () => {
     e.preventDefault();
     const faqSection = document.getElementById('faq');
     if (faqSection) {
-      const headerHeight = 80; // Approximate header height in pixels
+      const headerHeight = 80;
       const elementPosition = faqSection.getBoundingClientRect().top;
       const offsetPosition = elementPosition + window.pageYOffset - headerHeight;
 
